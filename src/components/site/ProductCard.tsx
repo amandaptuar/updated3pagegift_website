@@ -21,7 +21,7 @@ export function ProductCard({ p }: { p: Product }) {
   const productCustomization = p.customization || "Provide 1-6 high-resolution pictures, custom names/text scripts, and your select color theme (Gold-Burgundy, Blush-Silver, Midnight Classic).";
 
   const waMsg = encodeURIComponent(
-    `Hi Giforia! 🎁 I'm interested in placing an enquiry for the customized gift: *${p.name}* (Price: ₹${p.price}). Could you please guide me on customization options and ordering details?`
+    `Hi Desi Artizans! 🎁 I'm interested in placing an enquiry for the customized product: *${p.name}* (Price: ₹${p.price}). Could you please guide me on customization options and ordering details?`
   );
 
   return (

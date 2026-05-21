@@ -11,7 +11,7 @@ export function Newsletter() {
           <div className="relative grid items-center gap-8 md:grid-cols-2">
             <div>
               <div className="text-xs font-bold uppercase tracking-[0.3em] opacity-80">Subscribe</div>
-              <h2 className="mt-3 font-display text-4xl font-bold md:text-5xl">Get Exclusive Gift Offers</h2>
+              <h2 className="mt-3 font-display text-4xl font-bold md:text-5xl">Get Exclusive Product Offers</h2>
               <p className="mt-3 max-w-md text-sm opacity-90">Be the first to know about new collections, limited drops, and members-only discounts.</p>
             </div>
             <form className="flex gap-2 rounded-full bg-white/15 p-2 backdrop-blur">

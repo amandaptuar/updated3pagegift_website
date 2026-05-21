@@ -5,7 +5,7 @@ const cats = [
   { name: "Photo Frames", icon: Frame, count: 120 },
   { name: "Custom Mugs", icon: Coffee, count: 85 },
   { name: "LED Lamps", icon: Lamp, count: 64 },
-  { name: "Couple Gifts", icon: Heart, count: 142 },
+  { name: "Couple Products", icon: Heart, count: 142 },
   { name: "Cushions", icon: Sofa, count: 48 },
   { name: "Jewelry", icon: Gem, count: 96 },
   { name: "T-Shirts", icon: Shirt, count: 71 },
@@ -18,7 +18,7 @@ export function Categories() {
   return (
     <section className="py-20">
       <div className="container mx-auto px-4">
-        <SectionHeading eyebrow="Shop by Category" title="Find the Perfect Gift" />
+        <SectionHeading eyebrow="Shop by Category" title="Find the Perfect Product" />
         <div className="mt-12 grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-5">
           {cats.map((c, i) => (
             <motion.a

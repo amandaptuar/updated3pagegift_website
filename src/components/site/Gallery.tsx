@@ -48,9 +48,9 @@ const galleryItems = [
   {
     id: 6,
     src: "/WhatsApp Image 2026-05-19 at 12.05.38 AM (2).jpeg",
-    title: "Executive Corporate Gift Box",
+    title: "Executive Corporate Product Box",
     category: "hampers",
-    desc: "An ultra-premium corporate gifting kit. Includes a matte black thermal flask, leatherette agenda planner, elegant pen, and fine dark chocolates packaged in a luxury presentation box.",
+    desc: "An ultra-premium corporate product kit. Includes a matte black thermal flask, leatherette agenda planner, elegant pen, and fine dark chocolates packaged in a luxury presentation box.",
     customization: "Custom laser-engraved corporate branding, company logos, and individual employee name tags.",
   },
   {
@@ -58,7 +58,7 @@ const galleryItems = [
     src: "/WhatsApp Image 2026-05-19 at 12.05.38 AM.jpeg",
     title: "Eternal Love Anniversary Hamper",
     category: "hampers",
-    desc: "A lavishly prepared premium romantic gift box. Features custom matching ceramic mugs, artificial gold roses, personalized scroll letters, and scented candles.",
+    desc: "A lavishly prepared premium romantic product box. Features custom matching ceramic mugs, artificial gold roses, personalized scroll letters, and scented candles.",
     customization: "Customized letters, special couple photos for the box cover, and custom names on mugs.",
   },
   {
@@ -108,7 +108,7 @@ const categories = [
   { id: "frames", name: "Custom Frames" },
   { id: "mugs", name: "Mugs & Cushions" },
   { id: "lamps", name: "LED Lamps" },
-  { id: "hampers", name: "Gift Hampers" },
+  { id: "hampers", name: "Product Hampers" },
   { id: "jewelry", name: "Name Jewelry" },
 ];
 
@@ -128,14 +128,14 @@ export function Gallery({ isFullPage = false }: { isFullPage?: boolean }) {
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="text-primary font-semibold tracking-wider text-sm uppercase">Our Gallery</span>
             <h1 className="text-4xl md:text-5xl font-bold font-display mt-2 text-foreground">
-              Let's Check Our Gift Stories
+              Let's Check Our Product Stories
             </h1>
             <p className="text-muted-foreground mt-4 text-sm md:text-base leading-relaxed">
-              Explore our lookbook of hand-wrapped customized memories. Each photo represents a real gift designed, packaged, and delivered to bring wide smiles.
+              Explore our lookbook of hand-wrapped customized memories. Each photo represents a real product designed, packaged, and delivered to bring wide smiles.
             </p>
           </div>
         ) : (
-          <SectionHeading eyebrow="Photo Gallery" title="Let's Check Our Gift Stories" />
+          <SectionHeading eyebrow="Photo Gallery" title="Let's Check Our Product Stories" />
         )}
 
         {/* Filter Navigation */}
@@ -280,7 +280,7 @@ export function Gallery({ isFullPage = false }: { isFullPage?: boolean }) {
                   {/* Order / Enquire WhatsApp CTA */}
                   <div className="mt-8 flex flex-col sm:flex-row gap-3">
                     <a
-                      href={`https://wa.me/918302309238?text=Hi%20Giforia!%20I'm%20interested%20in%20customizing%20the%20*${encodeURIComponent(
+                      href={`https://wa.me/918302309238?text=Hi%20Desi%20Artizans!%20I'm%20interested%20in%20customizing%20the%20*${encodeURIComponent(
                         selectedItem.title
                       )}*%20from%20your%20Gallery!%20Could%20you%20please%20help%20me%20with%20pricing%20and%20options?`}
                       target="_blank"

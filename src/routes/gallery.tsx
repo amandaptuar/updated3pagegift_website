@@ -11,7 +11,7 @@ export const Route = createFileRoute("/gallery")({
 
 function GalleryPage() {
   useEffect(() => {
-    document.title = "Lookbook Gallery — Giforia Gifting";
+    document.title = "Lookbook Gallery — Desi Artizans Products";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute(

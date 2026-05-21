@@ -11,12 +11,12 @@ export const Route = createFileRoute("/contact")({
 
 function ContactPage() {
   useEffect(() => {
-    document.title = "Contact Design Studio — Giforia Gifting";
+    document.title = "Contact Design Studio — Desi Artizans Products";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "Reach out to our customized gifting design studio in Mumbai. Create photo collage frames, magical sequins, corporate gifts, and luxury anniversary packs."
+        "Reach out to our customized product design studio in Jaipur. Create photo collage frames, magical sequins, corporate products, and luxury anniversary packs."
       );
     }
   }, []);

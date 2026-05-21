@@ -60,11 +60,11 @@ export const all: Product[] = [
     oldPrice: 1299,
     rating: 5,
     badge: "NEW",
-    desc: "A professional executive gift pack containing a temperature flask, notebook, metallic pen, and branded calendar.",
+    desc: "A professional executive product pack containing a temperature flask, notebook, metallic pen, and branded calendar.",
     customization: "Upload your corporate logo and brand name for custom laser-engraved branding.",
   },
   {
-    name: "Eternal Rose Anniversary Gift",
+    name: "Eternal Rose Anniversary Product",
     image: "/WhatsApp Image 2026-05-19 at 12.05.38 AM.jpeg",
     price: 699,
     oldPrice: 999,
@@ -127,7 +127,7 @@ export function TrendingProducts() {
   return (
     <section className="bg-gradient-blush py-20">
       <div className="container mx-auto px-4">
-        <SectionHeading eyebrow="Trending Now" title="Best Selling Gifts" />
+        <SectionHeading eyebrow="Trending Now" title="Best Selling Products" />
         <div className="mt-12 grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4">
           {all.slice(0, 8).map((p) => (
             <ProductCard key={p.name} p={p} />

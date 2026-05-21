@@ -41,12 +41,12 @@ export function ContactForm() {
   };
 
   const getWhatsAppMessageUrl = () => {
-    const text = `Hi Giforia! 🎁 I'd like to make an enquiry:
+    const text = `Hi Desi Artizans! 🎁 I'd like to make an enquiry:
 *Name:* ${form.name}
 *Email:* ${form.email}
 *WhatsApp:* ${form.whatsapp}
 *Occasion:* ${form.occasion}
-*Gift Preference:* ${form.giftType}
+*Product Preference:* ${form.giftType}
 *Needed By:* ${form.date || "Not specified"}
 *Custom Requirements:* ${form.message}`;
     return `https://wa.me/918302309238?text=${encodeURIComponent(text)}`;
@@ -58,10 +58,10 @@ export function ContactForm() {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-primary font-semibold tracking-wider text-sm uppercase">Get In Touch</span>
           <h1 className="text-4xl md:text-5xl font-bold font-display mt-2 text-foreground">
-            Create Your Perfect Gift
+            Create Your Perfect Product
           </h1>
           <p className="text-muted-foreground mt-4 text-sm md:text-base leading-relaxed">
-            Have questions about custom designs, group orders, or corporate gifting? Contact our dedicated design concierge. We design feelings, not just shapes.
+            Have questions about custom designs, group orders, or corporate products? Contact our dedicated design concierge. We design feelings, not just shapes.
           </p>
         </div>
 
@@ -116,7 +116,7 @@ export function ContactForm() {
               </div>
               <div>
                 <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Design Studio</span>
-                <h4 className="font-bold text-foreground mt-1 text-lg">Mumbai, India</h4>
+                <h4 className="font-bold text-foreground mt-1 text-lg">Jaipur, India</h4>
                 <p className="text-xs text-muted-foreground mt-1">Hand-wrapping with love for nationwide express shipping.</p>
               </div>
             </motion.div>
@@ -124,8 +124,8 @@ export function ContactForm() {
             {/* Premium Interactive Map Placeholder */}
             <div className="rounded-3xl overflow-hidden shadow-soft h-64 border border-border/30 relative">
               <iframe
-                title="Giforia Location Map"
-                src="https://www.google.com/maps/embed?pb=!11m18!1m12!1m3!1d3770.786526117621!2d72.8776559!3d19.076008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                title="Desi Artizans Location Map"
+                src="https://maps.google.com/maps?q=26.8381783,75.7744267&z=17&output=embed"
                 className="w-full h-full border-0 grayscale hover:grayscale-0 transition duration-500"
                 allowFullScreen={false}
                 loading="lazy"
@@ -217,7 +217,7 @@ export function ContactForm() {
                         >
                           <option value="birthday">Birthday Celebration</option>
                           <option value="anniversary">Anniversary</option>
-                          <option value="couple">Couple Gift</option>
+                          <option value="couple">Couple Product</option>
                           <option value="corporate">Corporate Hamper</option>
                           <option value="festival">Festivals & Holidays</option>
                           <option value="other">Other Occasion</option>
@@ -225,7 +225,7 @@ export function ContactForm() {
                       </div>
                       <div className="space-y-2">
                         <label className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
-                          Preferred Gift Category
+                          Preferred Product Category
                         </label>
                         <select
                           value={form.giftType}
@@ -235,7 +235,7 @@ export function ContactForm() {
                           <option value="frames">Photo Collage Frame</option>
                           <option value="mugs">Custom Mugs & Cushions</option>
                           <option value="lamps">LED Engraved Lamp</option>
-                          <option value="hampers">Luxury Gift Hampers</option>
+                          <option value="hampers">Luxury Product Hampers</option>
                           <option value="jewelry">Name Pendants</option>
                         </select>
                       </div>

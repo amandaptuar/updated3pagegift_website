@@ -3,14 +3,14 @@ import { ArrowRight } from "lucide-react";
 
 const banners = [
   {
-    tag: "GIFT BOX",
+    tag: "PRODUCT BOX",
     title: "Awesome Birthday Collections",
     img: "/WhatsApp Image 2026-05-19 at 12.05.39 AM (1).jpeg",
     tone: "from-primary/80 to-rose/70",
   },
   {
     tag: "OCCASION",
-    title: "Best Anniversary Gifts",
+    title: "Best Anniversary Products",
     img: "/WhatsApp Image 2026-05-19 at 12.05.38 AM.jpeg",
     tone: "from-rose/80 to-primary/70",
   },

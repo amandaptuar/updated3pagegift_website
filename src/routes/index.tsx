@@ -19,12 +19,12 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   useEffect(() => {
-    document.title = "Giforia — Premium Customized Gifts for Every Occasion";
+    document.title = "Desi Artizans — Premium Customized Products for Every Occasion";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "India's premium customized gift shop. Personalized photo frames, mugs, LED lamps, couple gifts & corporate hampers — hand-wrapped and delivered with love."
+        "India's premium customized product shop. Personalized photo frames, mugs, LED lamps, couple products & corporate hampers — hand-wrapped and delivered with love."
       );
     }
   }, []);

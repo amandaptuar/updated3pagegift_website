@@ -4,7 +4,7 @@ import { WhatsAppIcon } from "./ProductCard";
 
 export function Hero() {
   const waMsg = encodeURIComponent(
-    "Hi Giforia! 🎁 I'd like to enquire about a customized gift. Could you please help me with options and pricing?"
+    "Hi Desi Artizans! 🎁 I'd like to enquire about a customized product. Could you please help me with options and pricing?"
   );
 
   return (
@@ -26,11 +26,11 @@ export function Hero() {
           </span>
           <h1 className="mt-5 font-display text-5xl font-bold leading-tight md:text-6xl lg:text-7xl">
             Discover The Latest <br />
-            <span className="text-gradient-primary">Customized Gifts</span> <br />
+            <span className="text-gradient-primary">Customized Products</span> <br />
             For Your Loved Ones
           </h1>
           <p className="mt-6 max-w-xl text-base text-muted-foreground md:text-lg">
-            Handpicked, hand-wrapped, and personalised with love. Premium gifting for every moment that matters — from anniversaries to corporate celebrations.
+            Handpicked, hand-wrapped, and personalised with love. Premium products for every moment that matters — from anniversaries to corporate celebrations.
           </p>
           <div className="mt-8">
             <a
@@ -51,7 +51,7 @@ export function Hero() {
             </div>
             <div className="h-8 w-px bg-border" />
             <div>
-              <div className="text-2xl font-bold text-foreground">10K+</div>Curated Gifts
+              <div className="text-2xl font-bold text-foreground">10K+</div>Curated Products
             </div>
             <div className="h-8 w-px bg-border" />
             <div>
@@ -70,7 +70,7 @@ export function Hero() {
             <div className="absolute inset-6 rounded-[3rem] bg-gradient-primary opacity-90 blur-2xl" />
             <img
               src="/WhatsApp Image 2026-05-19 at 12.05.37 AM (1).jpeg"
-              alt="Premium customized gift boxes"
+              alt="Premium customized product boxes"
               width={1280}
               height={1024}
               className="relative h-full w-full rounded-[2.5rem] object-cover shadow-luxury"

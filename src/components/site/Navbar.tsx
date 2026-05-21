@@ -27,7 +27,7 @@ export function Navbar() {
             <Gift className="h-5 w-5" />
           </span>
           <span className="font-display text-2xl font-bold tracking-tight">
-            Gif<span className="text-gradient-primary">oria</span>
+            Desi <span className="text-gradient-primary">Artizans</span>
           </span>
         </Link>
 

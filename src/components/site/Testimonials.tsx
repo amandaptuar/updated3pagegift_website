@@ -2,9 +2,9 @@ import { Star, Quote } from "lucide-react";
 import { SectionHeading } from "./Categories";
 
 const tests = [
-  { name: "Priya Sharma", role: "Bride to be", text: "The customized photo frame was beyond my expectations. The packaging itself felt like a gift. Truly premium service!" },
-  { name: "Rohan Kapoor", role: "Corporate Buyer", text: "Ordered 200 corporate gift hampers — every single piece arrived perfectly wrapped. My clients were thrilled." },
-  { name: "Aisha Mehta", role: "Anniversary Gift", text: "The LED lamp with our photo is now the centerpiece of our bedroom. Absolutely magical and so well-crafted." },
+  { name: "Priya Sharma", role: "Bride to be", text: "The customized photo frame was beyond my expectations. The packaging itself felt like a premium product. Truly premium service!" },
+  { name: "Rohan Kapoor", role: "Corporate Buyer", text: "Ordered 200 corporate product hampers — every single piece arrived perfectly wrapped. My clients were thrilled." },
+  { name: "Aisha Mehta", role: "Anniversary Product", text: "The LED lamp with our photo is now the centerpiece of our bedroom. Absolutely magical and so well-crafted." },
 ];
 
 export function Testimonials() {

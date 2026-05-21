@@ -12,15 +12,15 @@ export function Footer() {
               <Gift className="h-5 w-5 text-white" />
             </span>
             <span className="font-display text-2xl font-bold text-white">
-              Gif<span className="text-primary">oria</span>
+              Desi <span className="text-primary">Artizans</span>
             </span>
           </div>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/70">
-            India's premium destination for customized gifts. Hand-wrapped, thoughtfully designed, and delivered with love to every doorstep.
+            India's premium destination for customized products. Hand-wrapped, thoughtfully designed, and delivered with love to every doorstep.
           </p>
           <div className="mt-6 space-y-2.5 text-sm text-white/60">
             <div className="flex items-center gap-2.5">
-              <MapPin className="h-4 w-4 text-primary shrink-0" /> Mumbai, India
+              <MapPin className="h-4 w-4 text-primary shrink-0" /> Jaipur, India
             </div>
             <div className="flex items-center gap-2.5">
               <Phone className="h-4 w-4 text-primary shrink-0" /> +91 83023 09238
@@ -66,14 +66,14 @@ export function Footer() {
 
         <FooterCol
           title="Categories"
-          links={["Birthday Gifts", "Anniversary Gifts", "Corporate Hampers", "Couple Gifts", "Acrylic LED Lamps"]}
+          links={["Birthday Products", "Anniversary Products", "Corporate Hampers", "Couple Products", "Acrylic LED Lamps"]}
         />
         <FooterCol title="Support" links={["FAQ Help", "Shipping Info", "Returns Policy", "Privacy Terms"]} />
       </div>
 
       <div className="border-t border-white/10">
         <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 py-6 text-xs md:flex-row">
-          <div>© {new Date().getFullYear()} Giforia. Crafted with ❤ for gifting moments.</div>
+          <div>© {new Date().getFullYear()} Desi Artizans. Crafted with ❤ for product moments.</div>
           <a
             href="https://wa.me/918302309238"
             target="_blank"

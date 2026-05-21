@@ -9,7 +9,7 @@ export function TopBar() {
             <Truck className="h-3.5 w-3.5" /> Free Shipping on orders over ₹999
           </span>
           <span className="hidden md:inline opacity-80">|</span>
-          <span className="hidden md:inline">✨ Flat 25% OFF on Festive Gifts — Code: <b>LOVE25</b></span>
+          <span className="hidden md:inline">✨ Flat 25% OFF on Festive Products — Code: <b>LOVE25</b></span>
         </div>
         <div className="flex items-center gap-4">
           <a
