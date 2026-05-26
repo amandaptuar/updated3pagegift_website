@@ -7,7 +7,7 @@ import { WhatsAppIcon } from "./ProductCard";
 const galleryItems = [
   {
     id: 1,
-    src: "/WhatsApp Image 2026-05-19 at 12.05.35 AM.jpeg",
+    src: "/new-product-1.jpeg",
     title: "Premium Photo Collage Frame",
     category: "frames",
     desc: "A stunning hand-assembled wooden photo collage frame featuring high-definition prints. Perfectly engineered to preserve and celebrate your family's most cherished memories.",
@@ -15,7 +15,7 @@ const galleryItems = [
   },
   {
     id: 2,
-    src: "/WhatsApp Image 2026-05-19 at 12.05.36 AM.jpeg",
+    src: "/new-product-2.jpeg",
     title: "Thermochromic Magic Ceramic Mug",
     category: "mugs",
     desc: "A premium heat-sensitive ceramic mug. It appears completely black at room temperature, then elegantly transitions to reveal a vibrant custom photo when a warm beverage is poured.",
@@ -23,7 +23,7 @@ const galleryItems = [
   },
   {
     id: 3,
-    src: "/WhatsApp Image 2026-05-19 at 12.05.37 AM (1).jpeg",
+    src: "/new-product-3.jpeg",
     title: "Custom 3D Acrylic LED Lamp",
     category: "lamps",
     desc: "A beautiful acrylic art lamp precision engraved with custom line portraits or decorative typography. Emits a comforting warm golden glow over a solid beechwood base.",
@@ -39,7 +39,7 @@ const galleryItems = [
   },
   {
     id: 5,
-    src: "/WhatsApp Image 2026-05-19 at 12.05.38 AM (1).jpeg",
+    src: "/new-product-4.jpeg",
     title: "Sleek Custom Name Pendant Necklace",
     category: "jewelry",
     desc: "A luxury stainless steel pendant personalized with custom typography script, finished in 18k champagne gold plating. Hypoallergenic and highly durable.",
@@ -47,7 +47,7 @@ const galleryItems = [
   },
   {
     id: 6,
-    src: "/WhatsApp Image 2026-05-19 at 12.05.38 AM (2).jpeg",
+    src: "/new-product-5.jpeg",
     title: "Executive Corporate Product Box",
     category: "hampers",
     desc: "An ultra-premium corporate product kit. Includes a matte black thermal flask, leatherette agenda planner, elegant pen, and fine dark chocolates packaged in a luxury presentation box.",
@@ -63,7 +63,7 @@ const galleryItems = [
   },
   {
     id: 8,
-    src: "/WhatsApp Image 2026-05-19 at 12.05.39 AM (1).jpeg",
+    src: "/new-product-6.jpeg",
     title: "Deluxe Birthday Explosion Box",
     category: "frames",
     desc: "An intricate multi-layered handmade papercraft explosion box. Spills open into a breathtaking display of beautiful photo panels, pull-out message cards, and hidden chocolate treats.",

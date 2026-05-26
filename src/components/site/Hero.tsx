@@ -69,7 +69,7 @@ export function Hero() {
           <div className="relative mx-auto aspect-square max-w-lg">
             <div className="absolute inset-6 rounded-[3rem] bg-gradient-primary opacity-90 blur-2xl" />
             <img
-              src="/WhatsApp Image 2026-05-19 at 12.05.37 AM (1).jpeg"
+              src="/new-product-3.jpeg"
               alt="Premium customized product boxes"
               width={1280}
               height={1024}

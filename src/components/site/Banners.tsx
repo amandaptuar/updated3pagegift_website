@@ -5,7 +5,7 @@ const banners = [
   {
     tag: "PRODUCT BOX",
     title: "Awesome Birthday Collections",
-    img: "/WhatsApp Image 2026-05-19 at 12.05.39 AM (1).jpeg",
+    img: "/new-product-6.jpeg",
     tone: "from-primary/80 to-rose/70",
   },
   {
@@ -17,7 +17,7 @@ const banners = [
   {
     tag: "HOT SALE",
     title: "Couple Sets Up To 50% Off",
-    img: "/WhatsApp Image 2026-05-19 at 12.05.35 AM.jpeg",
+    img: "/new-product-1.jpeg",
     tone: "from-primary/90 to-gold/60",
   },
 ];

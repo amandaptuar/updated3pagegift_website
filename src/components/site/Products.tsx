@@ -6,7 +6,7 @@ import { SectionHeading } from "./Categories";
 export const all: Product[] = [
   {
     name: "Custom Love Collage Frame",
-    image: "/WhatsApp Image 2026-05-19 at 12.05.35 AM.jpeg",
+    image: "/new-product-1.jpeg",
     price: 699,
     oldPrice: 999,
     rating: 5,
@@ -16,7 +16,7 @@ export const all: Product[] = [
   },
   {
     name: "Personalized Couple Photo Mug",
-    image: "/WhatsApp Image 2026-05-19 at 12.05.36 AM.jpeg",
+    image: "/new-product-2.jpeg",
     price: 699,
     oldPrice: 999,
     rating: 4,
@@ -26,7 +26,7 @@ export const all: Product[] = [
   },
   {
     name: "Golden Glow LED Lamp",
-    image: "/WhatsApp Image 2026-05-19 at 12.05.37 AM (1).jpeg",
+    image: "/new-product-3.jpeg",
     price: 699,
     oldPrice: 1299,
     rating: 5,
@@ -45,7 +45,7 @@ export const all: Product[] = [
   },
   {
     name: "Engraved Name Gold Locket",
-    image: "/WhatsApp Image 2026-05-19 at 12.05.38 AM (1).jpeg",
+    image: "/new-product-4.jpeg",
     price: 699,
     oldPrice: 1499,
     rating: 5,
@@ -55,7 +55,7 @@ export const all: Product[] = [
   },
   {
     name: "Elite Corporate Hampers Set",
-    image: "/WhatsApp Image 2026-05-19 at 12.05.38 AM (2).jpeg",
+    image: "/new-product-5.jpeg",
     price: 699,
     oldPrice: 1299,
     rating: 5,
@@ -74,7 +74,7 @@ export const all: Product[] = [
   },
   {
     name: "Handcrafted Birthday Explosion Box",
-    image: "/WhatsApp Image 2026-05-19 at 12.05.39 AM (1).jpeg",
+    image: "/new-product-6.jpeg",
     price: 699,
     oldPrice: 1199,
     rating: 5,
